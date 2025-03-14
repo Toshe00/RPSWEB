@@ -2,6 +2,7 @@
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaDiscord, FaTelegramPlane, FaTwitter } from "react-icons/fa";
 import { useState, useEffect } from "react";
+import { AlephiumConnectButton } from '@alephium/web3-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,20 +67,30 @@ const Navbar = () => {
                 </div>
 
                 {/* Wallet Button (Same Height as 3 Icons + Gaps) */}
-                <a
-                  href="#"
-                  className="block text-black text-lg font-bold italic bg-white relative transition-all duration-300 hover:bg-pink-400 
+                <AlephiumConnectButton.Custom>
+                  {({ isConnected, disconnect, show, account }) => {
+                    return isConnected ? (
+                      <button onClick={disconnect}>
+                        Disconnect
+                      </button>
+                    ) : (
+                      <button
+                        onClick={show}
+                        className="block text-black text-lg font-bold italic bg-white relative transition-all duration-300 hover:bg-pink-400 
                   border-t-4 border-r-4 border-pink-500 shadow-[6px_6px_0px_0px_black] ml-2"
-                  style={{
-                    width: "15rem", // Adjust based on icon + gap height
-                    height: "calc(3 * 36px + 2 * 8px)", // 3 icons (each 36px) + 2 gaps (8px each)
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
+                        style={{
+                          width: "15rem", // Adjust based on icon + gap height
+                          height: "calc(3 * 36px + 2 * 8px)", // 3 icons (each 36px) + 2 gaps (8px each)
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                      >
+                        CONNECT WALLET
+                      </button>
+                    )
                   }}
-                >
-                  CONNECT <br /> WALLET
-                </a>
+                </AlephiumConnectButton.Custom>
               </li>
             </ul>
           )}

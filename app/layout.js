@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Shrikhand } from "next/font/google";
+import { AlephiumWalletProvider } from '@alephium/web3-react';
 
 const shrikhand = Shrikhand({ weight: "400", subsets: ["latin"] });
 
@@ -22,11 +23,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={shrikhand.className}
-      >
-        {children}
-      </body>
+      <AlephiumWalletProvider network="mainnet" theme="retro">
+        <body
+          className={shrikhand.className}
+        >
+          {children}
+        </body>
+      </AlephiumWalletProvider>
     </html>
   );
 }
