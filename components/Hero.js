@@ -39,7 +39,7 @@ const Hero = () => {
         </h1>
 
         {/* Bottom Hands */}
-        <div className="flex gap-4 md:gap-8">
+        <div className="flex gap-4 md:gap-8 z-20">
           <Image
             src="/images/hand1.png"
             alt="Hand 1"

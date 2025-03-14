@@ -50,7 +50,7 @@ const LeaderboardSection = () => {
             alt={topPlayers[0].name}
             width={240} // Doubled size
             height={240}
-            className="rounded-full border-4 border-black w-[120px] h-[120px] lg:w-[240px] lg:h-[240px]"
+            className="rounded-full border-4 border-black w-[120px] h-[120px] lg:w-[200px] lg:h-[200px]"
           />
           <span className="lg:text-xl font-bold mt-4">{topPlayers[0].name}</span>
           <span className="bg-white border-4 px-4 py-2 text-base  text-black lg:px-6 lg:py-3 lg:text-lg font-bold mt-3 relative border-l-4 border-b-4 border-pink-500 shadow-[6px_6px_0px_0px_black] border-t-0 border-r-0">
@@ -67,7 +67,7 @@ const LeaderboardSection = () => {
                 alt={topPlayers[index].name}
                 width={200} // Doubled size
                 height={200}
-                className="rounded-full border-4 border-black w-[120px] h-[120px] lg:w-[240px] lg:h-[240px]"
+                className="rounded-full border-4 border-black w-[120px] h-[120px] lg:w-[200px] lg:h-[200px]"
               />
               <span className="lg:text-xl font-bold mt-4">{topPlayers[index].name}</span>
               <span className="bg-white border-4 px-4 py-2 text-base  text-black lg:px-6 lg:py-3 lg:text-lg font-bold mt-3 relative border-l-4 border-b-4 border-pink-500 shadow-[6px_6px_0px_0px_black] border-t-0 border-r-0">
