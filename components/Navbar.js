@@ -77,7 +77,7 @@ const Navbar = () => {
                       <button
                         onClick={show}
                         className="block text-black text-lg font-bold italic bg-white relative transition-all duration-300 hover:bg-pink-400 
-                  border-t-4 border-r-4 border-pink-500 shadow-[6px_6px_0px_0px_black] ml-2"
+                  border-t-4 border-r-4 border-pink-500 shadow-[6px_6px_0px_0px_black] ml-2 cursor-pointer"
                         style={{
                           width: "15rem", // Adjust based on icon + gap height
                           height: "calc(3 * 36px + 2 * 8px)", // 3 icons (each 36px) + 2 gaps (8px each)
