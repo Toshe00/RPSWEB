@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="flex flex-col items-center justify-center space-y-20">
         {/* Play Button */}
         <a
-          href="#"
+          href="https://game.rpsbattle.xyz/"
           className="bg-white text-black text-center text-xl md:text-xl lg:text-6xl font-bold italic px-12 py-6 md:px-16 md:py-8 border-l-4 border-b-4 border-pink-500 shadow-[4px_4px_0px_0px_black] lg:min-w-[300px] transition-all duration-300 hover:bg-pink-400 z-10 mt-12"
         >
           PLAY
