@@ -55,7 +55,7 @@ const Navbar = () => {
               <li className="relative flex items-center">
                 {/* Social Icons */}
                 <div className="flex flex-col gap-2">
-                  <a href="https://discord.gg/ygKmQQnc" className="bg-blue-600 p-2 rounded shadow-lg">
+                  <a href="https://discord.gg/VXa964jv" className="bg-blue-600 p-2 rounded shadow-lg">
                     <FaDiscord className="text-white text-lg" />
                   </a>
                   <a href="#" className="bg-blue-400 p-2 rounded shadow-lg">
@@ -127,7 +127,7 @@ const Navbar = () => {
               <li className="flex flex-col items-center gap-3">
                 {/* Social Icons (Mobile) */}
                 <div className="flex gap-3">
-                  <a href="https://discord.gg/ygKmQQnc" className="bg-blue-600 p-2 rounded shadow-lg">
+                  <a href="https://discord.gg/VXa964jv" className="bg-blue-600 p-2 rounded shadow-lg">
                     <FaDiscord className="text-white text-lg" />
                   </a>
                   <a href="#" className="bg-blue-400 p-2 rounded shadow-lg">
