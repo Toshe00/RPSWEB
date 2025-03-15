@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Hands */}
       <div className="absolute left-0 top-0 md:top-1/2 transform md:-translate-y-1/2">
         <Image
-          src="/images/left-hand2.png"
+          src="/images/hero-left-arm.svg"
           alt="Left Hand"
           width={1192}
           height={1080}
@@ -17,7 +17,7 @@ const Hero = () => {
 
       <div className="absolute right-0 top-0 md:top-1/2 transform md:-translate-y-1/2">
         <Image
-          src="/images/right-hand2.png"
+          src="/images/hero-right-arm.svg"
           alt="Right Hand"
           width={940}
           height={998}

@@ -17,7 +17,7 @@ const LeaderboardSection = () => {
     <div className="relative flex flex-col items-center text-center px-6 py-12 bg-[#9DCAFE] lg:pb-48">
       {/* Left Hand */}
       <Image
-        src="/images/bottom-left-image.png"
+        src="/images/bottom-left-image.svg"
         alt="Left Hand"
         width={200}
         height={200}
@@ -26,7 +26,7 @@ const LeaderboardSection = () => {
 
       {/* Right Hand */}
       <Image
-        src="/images/bottom-right-picture.png"
+        src="/images/bottom-right-image.svg"
         alt="Right Hand"
         width={200}
         height={200}

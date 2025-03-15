@@ -20,7 +20,7 @@ const RPSBattleSection = () => {
       {/* Right Side - Image */}
       <div className="lg:w-1/2 flex justify-center">
         <Image
-          src="/images/three-hands.png"
+          src="/images/three-hands.svg"
           alt="Three Robot Hands"
           width={1000}
           height={1000}
